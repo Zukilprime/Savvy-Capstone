@@ -1,0 +1,36 @@
+html{font-family: 'Raleway', sans-serif;
+height: 90%;
+margin: 10px;
+background-color: blanchedalmond;
+}
+
+#nav > ul{
+display: flex;
+color:red;
+border: black 1px solid;
+flex-flow: row nowrap;
+height: 80%;
+align-items: center;
+justify-content: space-evenly;
+box-shadow: black 1px 2px;
+}
+
+h1{
+  height: 0px;
+}
+
+#title{
+  text-align: center;
+  font-size: 5em;
+  color: gold;
+  text-shadow: black 1px 2px;
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+}
+
+#titleImage{
+height: auto;
+width: auto;
+background-size: cover;
+}
