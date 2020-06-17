@@ -1,36 +1,151 @@
-html{font-family: 'Raleway', sans-serif;
-height: 90%;
-margin: 10px;
-background-color: blanchedalmond;
+html {
+  font-family: "Raleway", sans-serif;
+  margin: 10px;
+  background-color: #4e878c;
 }
 
-#nav > ul{
-display: flex;
-color:red;
-border: black 1px solid;
-flex-flow: row nowrap;
-height: 80%;
-align-items: center;
-justify-content: space-evenly;
-box-shadow: black 1px 2px;
+#nav>div {
+  display: flex;
+  color: #5fcf7b;
+  flex-flow: row nowrap;
+  height: 80%;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: auto;
 }
 
-h1{
-  height: 0px;
-}
-
-#title{
-  text-align: center;
-  font-size: 5em;
-  color: gold;
+#nav>div>p {
+  border: solid black 1px;
+  padding: 5px 30px;
+  margin: 0px;
+  box-shadow: black 1px 2px;
   text-shadow: black 1px 2px;
+  font-size: 1.5em;
+  background-color: #e2efde;
+}
+
+#title>p {
+  text-align: center;
+  font-size: 3em;
+  color: #5fcf7b;
+  text-shadow: black 2px 3px;
   padding: 0px;
   margin: 0px;
-  height: auto;
 }
 
-#titleImage{
-height: auto;
-width: auto;
-background-size: cover;
+#titlePic{
+  height:300px;
+  width: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#playerGrid>table {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  margin: auto;
+  justify-content: space-around;
+  border: black solid 5px;
+  padding: 20px;
+  width: 75%;
+  background-color: #e2efde;
+}
+
+#playerResultsGrid>tbody>tr>td {
+  border: black solid 1px;
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  font-size: 1.3em;
+  background-color: #97d2fb;
+}
+
+#playerResultsGrid>thead>tr>th {
+  border: black solid 1px;
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  font-size: 1.3em;
+  background-color: #69aedf;
+}
+
+#spacerUpper {
+  padding: 10px;
+}
+
+#spacerLower {
+  padding: 20px;
+}
+
+#scheduleLink{
+  display: flex;
+  color: #5fcf7b;
+  flex-flow: row nowrap;
+  height: 80%;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: auto;
+}
+
+#scheduleLink>p{
+  border: solid black 1px;
+  padding: 5px 30px;
+  margin: 0px;
+  box-shadow: black 1px 2px;
+  text-shadow: black 1px 2px;
+  font-size: 1.5em;
+  background-color: #e2efde;
+}
+
+
+footer {
+  margin: 1%;
+  text-align: center;
+  border-top: solid black 3px;
+  padding: 5px;
+}
+
+#scheduleGrid>table {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  margin: auto;
+  justify-content: space-around;
+  border: black solid 5px;
+  padding: 20px;
+  width: 75%;
+  background-color: #e2efde;
+}
+
+#scheduleResultsGrid>tbody>tr>td {
+  border: black solid 1px;
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  font-size: 1.3em;
+  background-color: #97d2fb;
+}
+
+#scheduleResultsGrid>thead>tr>th {
+  border: black solid 1px;
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  font-size: 1.3em;
+  background-color: #69aedf;
 }
