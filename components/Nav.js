@@ -7,7 +7,7 @@ export default links =>
       <p>Games</p>
       <p>Events</p>
       <p>Social</p>
-      <p>About</p>
+      <p><a href="/About">About</a></p>
     </div>
   </nav>
   <div id="spacerLower"></div>`;

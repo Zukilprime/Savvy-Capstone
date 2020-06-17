@@ -240,3 +240,36 @@ fieldset{
   align-content: center;
   padding-top: 30px;
 }
+#bullwinkle>img{
+height: 300px;
+float: right;
+}
+
+#bullwinkle{
+  width: 50%;
+  font-size: 2em;
+  text-align: left;
+}
+
+#thidwick{
+width: 50%;
+font-size: 2em;
+text-align: right;
+padding-left: 45%;
+}
+
+#thidwick>img{
+height: 300px;
+float: left;
+}
+
+#staff{
+  width: 50%;
+  margin:auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+#staff>img{
+height: 300px;
+}
