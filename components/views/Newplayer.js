@@ -3,7 +3,6 @@ export default () => `<div>
 <h1 id="registrationTitle">New User Registration</h1>
     <form id="userForm">
       <fieldset>
-      <legend></legend>
       <section id="userInput">
         <p>
           <label>User Name</label>
@@ -25,43 +24,44 @@ export default () => `<div>
         </p>
       </section>
       <section id="daySelectBox">
+      <h4>
+      Game Day Selection
+      </h4>
         <input type="checkbox">
         <label class="container" id="selectionBox">Monday
         <span class="checkmark"></span>
         </label>
-
         <input type="checkbox">
         <label class="container" id="selectionBox">Tuesday
         <span class="checkmark" ></span>
         </label>
-
         <input type="checkbox">
         <label class="container" id="selectionBox">Wednesday
         <span class="checkmark"></span>
         </label>
-
         <input type="checkbox">
         <label class="container" id="selectionBox">Thursday
         <span class="checkmark"></span>
         </label>
-
         <input type="checkbox">
         <label class="container" id="selectionBox">Friday
         <span class="checkmark"></span>
         </label>
-
         <input type="checkbox">
         <label class="container" id="selectionBox">Saturday
         <span class="checkmark"></span>
         </label>
-
         <input type="checkbox">
         <label class="container" id="selectionBox">Sunday
         <span class="checkmark"></span>
         </label>
       </section>
       <div id="spacer"><div>
+      <div id="spacer"><div>
       <section id="timeSlots">
+      <h4>
+      Time Slot Availability
+      </h4>
       <input type="checkbox">
         <label class="container" id="selectionBox">10 AM
         <span class="checkmark"></span>
@@ -109,6 +109,27 @@ export default () => `<div>
       </section>
       <div id="spacer"><div>
       <div id="spacer"><div>
+      <section id="gameSelect">
+      <h4>
+      Game Selection
+      </h4>
+      <input type="checkbox">
+      <label class="container" id="selectionBox">Dungeons and Dragons
+      <span class="checkmark"></span>
+      </label>
+      <input type="checkbox">
+      <label class="container" id="selectionBox">Pathfinder
+      <span class="checkmark"></span>
+      </label>
+      <input type="checkbox">
+      <label class="container" id="selectionBox">Warhammer Fantasy
+      <span class="checkmark"></span>
+      </label>
+      <input type="checkbox">
+      <label class="container" id="selectionBox">Warhammer 40K
+      <span class="checkmark"></span>
+      </label>
+      </section>
       <div id="spacer"><div>
       <div id="spacer"><div>
       <section id="buttons">
