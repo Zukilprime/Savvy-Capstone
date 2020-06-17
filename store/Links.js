@@ -1,1 +1,1 @@
-export default ["Home", "Player", "Schedule"];
+export default ["Home", "Player", "Schedule", "Newplayer"];

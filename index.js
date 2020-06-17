@@ -2,7 +2,9 @@ import { Header, Nav, Main, Footer } from "./components";
 import * as state from "./store";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
-//import axios from "axios";
+import { auth, db } from "./firebase";
+
+const usersColl = db.collection("userNames");
 
 const playerResults = [
   {

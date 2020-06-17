@@ -149,3 +149,57 @@ footer {
   font-size: 1.3em;
   background-color: #69aedf;
 }
+
+#myText{
+  font-style: italic;
+}
+
+#daySelectBox{
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+#selectionBox{
+  padding: 0px 30px 0px 5px;
+  font-size: 1.2em;
+}
+
+#registrationTitle{
+  text-align: center;
+  font-size: 3em;
+}
+
+#userForm{
+  font-size: 1.5em;
+  background-color: rgb(59, 103, 121);
+  border: 2px solid black;
+}
+
+#timeSlots{
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+#spacer{
+  padding: 10px;
+}
+
+#userInput{
+  display: flex;
+  flex: auto;
+  justify-content: space-around;
+}
+
+fieldset{
+  border: 0;
+}
+
+#buttons{
+  display:flex;
+  flex:auto;
+  justify-content: space-evenly;
+  align-content: center;
+
+}
