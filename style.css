@@ -249,13 +249,24 @@ float: right;
   width: 50%;
   font-size: 2em;
   text-align: left;
+  border: solid black 2px;
+  border-radius: 10px;
+  background-color: #e2efde;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 #thidwick{
 width: 50%;
 font-size: 2em;
 text-align: right;
-padding-left: 45%;
+border: solid black 2px;
+border-radius: 10px;
+background-color: #e2efde;
+padding: 10px;
+margin-left: 48%;
+
+margin-bottom: 20px;
 }
 
 #thidwick>img{
@@ -268,6 +279,11 @@ float: left;
   margin:auto;
   text-align: center;
   font-size: 2em;
+  margin-bottom: 20px;
+  border: solid black 2px;
+  border-radius: 10px;
+  background-color: #e2efde;
+  padding: 10px;
 }
 
 #staff>img{
@@ -295,8 +311,21 @@ text-align: left;
 
 #gamePage>h2{
   text-align: center;
+  border: black 1px solid;
+  background-color: #e2efde;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
 }
 
 #gamePage{
   font-size: 1.7em;
+}
+
+#gamePage>div{
+  border: black 2px solid;
+  border-radius: 8px;
+  background-color: #e2efde;
+  margin: 10px 0px;
+  padding: 20px;
 }
