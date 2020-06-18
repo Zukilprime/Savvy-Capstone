@@ -273,3 +273,12 @@ float: left;
 #staff>img{
 height: 300px;
 }
+
+a{
+  color:#5fcf7b;
+  text-decoration: none;
+}
+
+a:hover{
+  color:darkgreen;
+}

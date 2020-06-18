@@ -3,8 +3,8 @@ export default links =>
   <nav id="nav">
     <div>
       <p><a href="/index">Home</a></p>
-      <p><a href="/player">Players</a></p>
-      <p>Games</p>
+      <p><a href="/Player">Players</a></p>
+      <p><a href="/Games">Games</a></p>
       <p>Events</p>
       <p>Social</p>
       <p><a href="/About">About</a></p>
