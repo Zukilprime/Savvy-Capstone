@@ -282,3 +282,21 @@ a{
 a:hover{
   color:darkgreen;
 }
+
+#gamePage>div>img{
+  height: 200px;
+  padding-bottom: 30px;
+}
+#gamePage>div>p{
+width: 80%;
+float: right;
+text-align: left;
+}
+
+#gamePage>h2{
+  text-align: center;
+}
+
+#gamePage{
+  font-size: 1.7em;
+}

@@ -1,6 +1,6 @@
 export default () => `
 <div>
-<section>
+<section id="gamePage">
 <h2>
 Games
 </h2>
@@ -8,10 +8,11 @@ Games
 <h4>
 Dungeons and Dragons
 </h4>
-<img src="https://raw.githubusercontent.com/Zukilprime/Savvy-Capstone/Dev/Pictures/DnD.jpg" alt="DnD"></img>
+
 <p>
   The first roleplaying game to make mainstream popularity. Currently in its fifth edition, Dungeons and Dragons is one of the largest game systems today. The system is primarily a fantasy based and has a player create a character to inhabit the game world. A game master is required to run the game and create exciting situations for the players to navigate. You can play as your favorite fantasy race and swing a sword or sling spells to defeat the enemies before you!
 </p>
+<img src="https://raw.githubusercontent.com/Zukilprime/Savvy-Capstone/Dev/Pictures/DnD.jpg" alt="DnD"></img>
 </div>
 <div>
 <h4>
