@@ -240,6 +240,7 @@ fieldset{
   align-content: center;
   padding-top: 30px;
 }
+
 #bullwinkle>img{
 height: 300px;
 float: right;
@@ -303,6 +304,7 @@ a:hover{
   height: 200px;
   padding-bottom: 30px;
 }
+
 #gamePage>div>p{
 width: 80%;
 float: right;

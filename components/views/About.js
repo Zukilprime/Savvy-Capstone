@@ -1,5 +1,5 @@
 export default () => `
-<div>
+<div class="aboutPage">
 <section id="bullwinkle">
 <h2>
 Bullwinkle J. Moose, Owner
