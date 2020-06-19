@@ -6,7 +6,7 @@ Games
 </h2>
 <div>
 <h4>
-Dungeons and Dragons
+<a href="https://dnd.wizards.com/">Dungeons and Dragons</a>
 </h4>
 
 <p>
@@ -16,7 +16,7 @@ Dungeons and Dragons
 </div>
 <div>
 <h4>
-Pathfinder
+<a href="https://paizo.com/pathfinder">Pathfinder</a>
 </h4>
 <img src="https://raw.githubusercontent.com/Zukilprime/Savvy-Capstone/Dev/Pictures/Pathfinder.jpg" alt="Pathfinder"></img>
 <p>
@@ -25,7 +25,7 @@ Pathfinder is the offshoot of an earlier edition (third edition to be precise) o
 </div>
 <div>
 <h4>
-Warhammer Fantasy
+<a href="https://www.games-workshop.com/en-US/Warhammer-Age-of-Sigmar">Warhammer Fantasy</a>
 </h4>
 <img src="https://raw.githubusercontent.com/Zukilprime/Savvy-Capstone/Dev/Pictures/Warhammer_Fantasy_RedCraig.jpg" alt="Warhammer Fantasy"></img>
 <p>
@@ -34,7 +34,7 @@ Warhammer fantasy is one of the older table top war games. You build an army of 
 </div>
 <div>
 <h4>
-Warhammer 40K
+<a href="https://www.games-workshop.com/en-US/Warhammer-40-000">Warhammer 40K</a>
 </h4>
 <img src="https://raw.githubusercontent.com/Zukilprime/Savvy-Capstone/Dev/Pictures/WH40K.jpg" alt="Warhammer 40K"></img>
 <p>
