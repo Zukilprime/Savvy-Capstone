@@ -224,19 +224,3 @@ router
     "/": () => render(state.Home)
   })
   .resolve();
-
-// function addNavEventListeners() {
-//   document.querySelectorAll("nav a").forEach(navLink => {
-//     navLink.addEventListener("click", event => {
-//       event.preventDefault();
-//       render(state[event.target.textContent]);
-//     });
-//   });
-// }
-
-// const params = router.lastRouteResolved().params;
-// if (params) {
-//   render(state[params.page]);
-//}
-//render(tableCall());
-//tableCall(render());
