@@ -59,12 +59,18 @@ html {
 #homePage>p{
   font-size: 1.4em;
   padding: 10px 30px;
+  margin: 5px;
 }
 
 #homePage{
-  background-color: #e2efde70;
+  background-color: #c5cac4;
   border: 1px solid black;
   border-radius: 6px;
+}
+
+#homePage>h3{
+  margin: 0px;
+  margin-bottom: 20px;
 }
 
 #playerGrid>table {
@@ -184,7 +190,16 @@ footer {
   display: block;
   width: 70%;
   margin: auto;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #e2efde;
 }
+
+#daySelectBox>h4{
+  margin: 0px;
+}
+
 
 #selectionBox{
   padding: 0px 30px 0px 5px;
@@ -211,12 +226,28 @@ section>h4{
   display: block;
   width: 80%;
   margin: auto;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #e2efde;
+}
+
+#timeSlots>h4{
+  margin: 0px;
 }
 
 #gameSelect{
   display: block;
   width: 70%;
   margin: auto;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #e2efde;
+}
+
+#gameSelect>h4{
+  margin: 0px;
 }
 
 #spacer{
@@ -227,6 +258,11 @@ section>h4{
   display: flex;
   flex: auto;
   justify-content: space-around;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #e2efde;
+  margin-bottom: 20px;
 }
 
 fieldset{
@@ -297,7 +333,20 @@ a{
 }
 
 a:hover{
-  color:darkgreen;
+  color:#238a3d;
+}
+
+#gamePage>div>h4>a{
+  color:#4e878c;
+}
+
+#gamePage>div>h4>a:hover{
+  color:#2d6064;
+}
+
+#gamePage>div>h4{
+  margin: 0px;
+  margin-bottom: 20px;
 }
 
 #gamePage>div>img{
@@ -329,5 +378,5 @@ text-align: left;
   border-radius: 8px;
   background-color: #e2efde;
   margin: 10px 0px;
-  padding: 20px;
+  padding: 5px 20px;
 }
