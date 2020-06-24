@@ -1,5 +1,10 @@
 export default st => `
 <header>
+<div>
+<aside id="login">
+<p>Log In</p>
+</aside>
+</div>
   <div id="titlePic"
       style="background-image: url(https://raw.githubusercontent.com/Zukilprime/Savvy-Homework/master/Project/Pictures/alperen-yazgi-QuP5RL_E5oE-unsplash_edit.jpg);">
       <h1 id="title">

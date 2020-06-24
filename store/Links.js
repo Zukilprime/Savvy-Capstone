@@ -1,1 +1,10 @@
-export default ["Home", "Player", "Schedule", "Newplayer", "About", "Games"];
+export default [
+  "Home",
+  "Player",
+  "Schedule",
+  "Newplayer",
+  "About",
+  "Games",
+  "Events",
+  "Social"
+];
