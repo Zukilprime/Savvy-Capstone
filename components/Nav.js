@@ -5,8 +5,8 @@ export default links =>
       <p><a href="/index">Home</a></p>
       <p><a href="/Player">Players</a></p>
       <p><a href="/Games">Games</a></p>
-      <p>Events</p>
-      <p>Social</p>
+      <p><a href="/Events">Events</a></p>
+      <p><a href="/Social">Social</a></p>
       <p><a href="/About">About</a></p>
     </div>
   </nav>

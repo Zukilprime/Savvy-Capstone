@@ -36,9 +36,23 @@ html {
 
 #titlePic{
   height:300px;
-  width: fit-content;
+  width: 60%;
   background-position: center;
   background-repeat: no-repeat;
+  margin: auto;
+}
+
+header>div>aside{
+  width: 10%;
+  float: right;
+  border: 1px black solid;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #e2efde;
+}
+
+header>div>aside:hover{
+  background-color: #a2a7a1;
 }
 
 #splashPic{
@@ -332,8 +346,8 @@ a{
   text-decoration: none;
 }
 
-a:hover{
-  color:#238a3d;
+#nav>div>p:hover{
+  background-color: #a2a7a1;
 }
 
 #gamePage>div>h4>a{
@@ -379,4 +393,17 @@ text-align: left;
   background-color: #e2efde;
   margin: 10px 0px;
   padding: 5px 20px;
+}
+
+#social>p{
+  font-size: 4em;
+  text-align: center;
+}
+
+#social{
+}
+
+#events>p{
+  font-size: 4em;
+  text-align: center;
 }
