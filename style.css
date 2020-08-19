@@ -359,16 +359,22 @@ a{
 }
 
 #gamePage>div>h4{
-  margin: 0px;
-  margin-bottom: 20px;
+  margin: 0px auto;
+  padding: 0px;
+  border: black 2px solid;
+  border-radius: 20px;
+  background-color: #e2efde;
+  width: 60%;
+  text-align: center;
 }
 
-#gamePage>div>img{
+#gamePage>div>div>img{
   height: 200px;
   padding-bottom: 30px;
+  padding-right: 50px;
 }
 
-#gamePage>div>p{
+#gamePage>div>div>p{
 width: 80%;
 float: right;
 text-align: left;
@@ -381,18 +387,21 @@ text-align: left;
   width: 80%;
   margin: auto;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 #gamePage{
   font-size: 1.7em;
 }
 
-#gamePage>div{
+#gamePage>div>div{
   border: black 2px solid;
   border-radius: 8px;
   background-color: #e2efde;
-  margin: 10px 0px;
+  margin: 0px 0px 30px 0px;
   padding: 5px 20px;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 #social>p{
@@ -407,6 +416,7 @@ text-align: left;
   font-size: 2em;
   text-align: left;
   width: 80%;
+  margin: 20px auto;
 }
 
 #events>img{
